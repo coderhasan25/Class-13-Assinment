@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    height: auto;
+    width: 1200px;
+    margin: auto;
+}
+.menu-img{
+    background-image: url(./img/photo-1471879832106-c7ab9e0cee23.jpg);
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.menu-img img{
+    margin-top: 20px;
+    margin-left: 220px;
+    height: 30px;
+    width: auto;
+    display: inline-block;
+}
+
+.header-menu {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+    position: absolute;
+}
+.header-menu ul {
+    list-style: none;
+    
+}
+.header-menu ul li {
+    display: inline-block;
+    
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    transition: .4s;
+   
+
+}
+.header-menu ul li a:hover  {
+    color: orangered; 
+}
+
+.menu-img h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.menu-img h1::before{
+    content: '"';
+    color: orangered;
+    
+}
+.menu-img h1::after{
+    content: '"';
+    color: orangered;
+}
+
+
+
+/* About */
+
+.about-div{
+    padding: 30px 0;
+}
+.about-div img{
+    height: 120px;
+    width: auto;
+    border: 2px solid orange;
+    margin-left: 200px;
+}
+.about{
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    margin-left: 50px;
+    
+    
+}
+.about h1{
+    padding: 0 0 30px 0;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.about-pera-2{
+    padding: 30px 0;
+}
+
+/* SERVICE */
+
+.service-div{
+    text-align: center;
+    background-color: #2e3e4e;
+    padding: 50px 0;
+    
+    height: 370px;
+}
+.service-div h1{
+    color: #fe583b;
+    padding-bottom: 20px;
+}
+.all-list-div{
+    display: inline-block;
+}
+
+/* SERVICE list-1 */
+
+.all-list-div .list-1 {
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+    
+}
+.all-list-div .list-1 .icon-div-1 i{
+    color: #fff;
+    background-color: #fe583b;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 0 50%;
+}
+.all-list-div .list-1 h3{
+    padding: 15px;
+    color: #fff;
+}
+.all-list-div .list-1 ul{
+    display: inline-block;
+    list-style: none;
+}
+.all-list-div .list-1 ul li{
+    color: #fff;
+    padding: 5px;
+}
+.all-list-div .list-1 ul li::before{
+    content: "\f560";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: red;
+	display: inline-block;
+	margin-right: 10px;
+    font-size: 20px;
+}
+.all-list-div .list-1 .a {
+    display: inline-block;
+    background-color: #fe583b;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.all-list-div .list-1 .a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 10px;
+    z-index: -1;
+
+    transition: .4s;
+}
+
+.all-list-div .list-1 .a:hover:before{
+    width: 100%;
+}
+
+/* SERVICE list-2 */
+
+.all-list-div .list-2 {
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+}
+.all-list-div .list-2 .icon-div-2 i{
+    color: #fff;
+    background-color: #fe583b;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 0 50%;
+}
+.all-list-div .list-2 h3{
+    padding: 15px;
+    color: #fff;
+}
+.all-list-div .list-2 ul{
+    display: inline-block;
+    list-style: none;
+}
+.all-list-div .list-2 ul li{
+    color: #fff;
+    padding: 5px;
+}
+.all-list-div .list-2 ul li::before{
+    content: "\f560";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: red;
+	display: inline-block;
+	margin-right: 10px;
+    font-size: 20px;
+}
+.all-list-div .list-2 .a{
+    display: inline-block;
+    background-color: #fe583b;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    
+}
+.all-list-div .list-2 .a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 10px;
+    z-index: -1;
+
+    transition: .4s;
+}
+
+.all-list-div .list-2 .a:hover:before{
+    width: 100%;
+}
+/* SERVICE list-3 */
+
+.all-list-div .list-3 {
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+}
+.all-list-div .list-3 .icon-div-3 i{
+    color: #fff;
+    background-color: #fe583b;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 0 50%;
+
+}
+
+.all-list-div .list-3 h3{
+    padding: 15px;
+    color: #fff;
+}
+.all-list-div .list-3 ul{
+    display: inline-block;
+    list-style: none;
+}
+.all-list-div .list-3 ul li{
+    color: #fff;
+    padding: 5px;
+}
+.all-list-div .list-3 ul li::before{
+    content: "\f560";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: red;
+	display: inline-block;
+	margin-right: 10px;
+    font-size: 20px;
+}
+.all-list-div .list-3 .a{
+    display: inline-block;
+    background-color: #fe583b;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+
+}
+.all-list-div .list-3 .a::before{
+   content: "";
+   height: 0;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color: red;
+   border-radius: 10px;
+   z-index: -1;
+
+   transition: .4s;
+}
+
+.all-list-div .list-3 .a:hover:before{
+   height: 100%;
+}
+
+
+.hover{
+    margin-top: 25px;
+}
+
+
+
+.forom-div{
+    text-align: center;
+    padding: 50px;
+}
+.forom-div h1{
+    padding-bottom: 25px;
+}
+.forom-div ul{
+    list-style: none;
+}
+
+.forom-div ul li{
+    padding: 10px;
+}
+.forom-div input {
+    height: 36px;
+    width: 687px;
+    
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+}
+.forom-div span a{
+    
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 150px;
+    background-color: #f13210;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+.forom-div span a::before{
+    content: "";
+   height: 100%;
+   width: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: rgb(142, 17, 17);
+   z-index: -1;
+
+   transition: .9s;
+
+}
+.forom-div span a:hover:before{
+   width: 50%;
+}
+
+
+.forom-div span a::after{
+    content: "";
+   height: 100%;
+   width: 0;
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color: rgb(158, 35, 35);
+   z-index: -1;
+
+   transition: .9s;
+
+}
+.forom-div span a:hover::after{
+   width: 50%;
+}
+
+
+
+
+
+.footer-div{
+    padding: 40px;
+    background-color: #293d51;
+    text-align: center;
+}
+
+.footer-div .stock{
+    color: #fe583b;
+}
